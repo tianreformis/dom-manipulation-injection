@@ -15,6 +15,8 @@ document.querySelector('a').style.color="black";
 let content=document.getElementById('content');
 content.style.gap='2em';
 content.style.margin='2em';
+content.style.display='flex';
+content.style.justifyContent='space-between';
 
 let title=document.getElementById("title");
 title.innerHTML=" Collaborating With Me";
@@ -25,3 +27,10 @@ let subtitle=document.getElementById("subtitle");
 subtitle.innerHTML=" Iam a student passionated with UI <br> and UX Design folow and hire me for more info";
 subtitle.style.fontWeight="normal"
 subtitle.style.fontSize="1rem"
+
+let image=document.getElementById('image');
+image.style.width='20em';
+image.style.height='20em';
+
+image.style.backgroundImage="url('https://picsum.photos/seed/picsum/500/500')";
+image.style.borderRadius='50%';

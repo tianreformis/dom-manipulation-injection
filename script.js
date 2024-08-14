@@ -28,9 +28,24 @@ subtitle.innerHTML=" Iam a student passionated with UI <br> and UX Design folow 
 subtitle.style.fontWeight="normal"
 subtitle.style.fontSize="1rem"
 
+
 let image=document.getElementById('image');
+image.style.minWidth='10em';
+image.style.minHeight='10em';
 image.style.width='20em';
 image.style.height='20em';
 
 image.style.backgroundImage="url('https://picsum.photos/seed/picsum/500/500')";
 image.style.borderRadius='50%';
+
+let button = document.querySelector('button');
+button.style.fontFamily="Poppins";
+button.style.width=('7em');
+button.style.height=('3em');
+button.innerHTML="Hire Me";
+button.style.marginTop="5em";
+button.style.backgroundColor="greenyellow";
+button.style.padding="0.5em";
+button.style.border="none";
+button.style.borderRadius="5px";
+button.style.cursor="pointer";
